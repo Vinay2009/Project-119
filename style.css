@@ -1,0 +1,33 @@
+body
+{
+    top:0;
+    background-color:whitesmoke;
+
+}
+h1
+{
+ color:black;
+ background-color:whitesmoke;
+}
+#show_sketch
+{
+    float:right;
+}
+canvas
+{
+  border:5px solid white;
+  border-radius:20px;
+  animation-name:example;
+  animation-duration: 5s;
+  margin-top: 50px;
+  animation-iteration-count:infinite;
+}
+@keyframes examples {
+    from{box-shadow:1px 1px 40px orangered;}
+    to{box-shadow:1px 1px 40px orange;}
+}
+p
+{
+ padding-top:10px;
+ font-size:25px;
+}
