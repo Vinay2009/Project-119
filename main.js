@@ -22,7 +22,7 @@ function classifyCanvas() {
 
 function setup() {
     canvas = createCanvas(280, 280);
-    canvas.center();
+    canvas.position(550, 250);
     background("white");
     canvas.mouseReleased(classifyCanvas);
     synth = window.speechSynthesis;
@@ -52,5 +52,8 @@ utterThis = new SpeechSynthesisUtterance(results[0].label);
 synth.speak(utterThis);
 }
 
+function clearCanvas() {
+    background("white");
+}
 
 
